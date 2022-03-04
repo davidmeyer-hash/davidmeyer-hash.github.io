@@ -54,7 +54,6 @@ function Person () {
   let {name }= useParams();
   return (
     <div>
-      <h1>{name}'s passes:</h1>
       <li><Link to={"/screener/"+name}>screener</Link></li>
       <li><Link to={"/vax/"+name}>vax</Link></li>
 
